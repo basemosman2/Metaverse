@@ -32,9 +32,9 @@ const World = () => (
         <div className=" absolute w-[30px] h-[30px] sm:w-[70px] sm:h-[70px]  bg-[#5d6680] p-[6px] rounded-full top-[45%] left-[45%] z-10">
           <img src="people-03.png" alt="people-03" className=" object-contain w-full" />
         </div>
-        {exploreWorlds.slice(1, 3).map((world) => (
+        {/* {exploreWorlds.slice(1, 3).map((world) => (
           <MapCard {...world} key={world.id} />
-        ))}
+        ))} */}
       </motion.div>
     </motion.div>
   </section>
